@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: auto%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-one {
+    height: 65vh;
+    width: 28%;
+    border: 2px solid grey;
+    border-right: unset;
+}
+
+.container img {
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 10vh;
+    width: 35%;
+}
+
+.container-one h1 {
+    padding-left: 20px;
+    font-size: large;
+}
+
+.container-one p {
+    padding-left: 20px;
+    font-size: small;
+    color: grey;
+}
+
+.container-two {
+    height: 65vh;
+    width: 25%;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: unset;
+}
+
+.container-two img {
+    height: 60vh;
+    width: 90%;
+}
+
+.input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    padding-left: 2px;
+}
+
+.input2 {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.input2 p {
+   padding: 10px;
+}
+
+.input3{
+    gap: 30px;
+    padding: 20px;
+    padding-left: 30px;
+    
+}
+
+.input3 p {
+    padding: 10px; 
+}
+
+.button {
+    display: flex;
+    gap: 250px;
+    color: blue;
+    padding-top: 30px;
+    }
+
+.button button {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 2px;
+    color: white;
+}
